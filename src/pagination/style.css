@@ -1,0 +1,30 @@
+.pagination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.pagesNumber{
+    display: flex;
+    gap: 15px;
+}
+
+.pagesNumber > button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.active{
+    color: white;
+    background-color: gray;
+}
